@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter{
+    width: 40rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(8, 96, 126);
+    color: white;
+}
+span{
+    font-size: 2rem;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons .sub{
+    background: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+}
+.buttons .sub:hover{
+    background: red;
+    color: white;
+    transition: all ease-in-out .5s;
+}
+.buttons .reset{
+    background: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+}
+
+.buttons .reset:hover{
+    background: black;
+    color: white;
+    transition: all ease-in-out .5s;
+}
+
+.buttons .add{
+    background: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+}
+
+.buttons .add:hover{
+    background: green;
+    color: white;
+    transition: all ease-in-out .5s;
+}
